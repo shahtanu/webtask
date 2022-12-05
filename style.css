@@ -1,4 +1,4 @@
-    *{
+  *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -145,6 +145,7 @@
  }
   /* service section */
  #services{
+    background-color: black;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -166,7 +167,7 @@
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+   background-color: antiquewhite;
     background-size: 100% 200%;
     transition: all .8s;
 
@@ -178,20 +179,20 @@
     box-shadow: 0 0 20px rgb(255, 45, 45);
   }
   .box img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color:white;
     padding: 10px;
 
   }
 
-  /*contect section */
-#contect{
+  /*contact section */
+#contact{
    display: flex;
    flex-direction: column;
    box-sizing: border-box;
    background-color: rgba(0, 0, 0, 0.9);
-   color: black;
+   color: antiquewhite;
    padding: 20px;
    background-color: black;
 }
@@ -207,13 +208,13 @@
     padding: 12px;
     margin: 15px;
     width: 30%;
-    border: none;
+    border: navajowhite;
     outline: none;
 }
 #msg{
     width: 20%;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
     border: none;
     outline: none;
 }
